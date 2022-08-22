@@ -8,7 +8,7 @@ const Home = ({ dark }) => {
               <h3>
                 Emmanuel Tolani <img className="svg" src="img/svg/hi.svg" alt="" />
               </h3>
-              <span className="job">FullStack Developer</span>
+              <span className="job">Front End Developer</span>
             </div>
             <div className="text">
               <p>
