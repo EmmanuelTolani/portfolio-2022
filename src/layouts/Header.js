@@ -3,9 +3,7 @@ const Header = ({ dark }) => {
     <div className="orido_tm_header">
       <div className="header_in">
         <div className="logo">
-          <a href="#">
-            <img src={`img/logo/logo3.webp`} alt="" />
-          </a>
+          <a href="#">Tolani</a>
         </div>
         <div className="menu">
           <ul className="anchor_nav">

@@ -413,6 +413,12 @@ h6 {
   max-width: 170px;
   max-height: 90px;
 }
+.orido_tm_header .logo a{
+  color: #4c359a;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
 .orido_tm_header .menu {
   position: relative;
 }
