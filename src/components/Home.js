@@ -92,7 +92,7 @@ const Home = ({ dark }) => {
       <div className="avatar">
         <div className="img">
           <img src={`img/hero/${dark ? 2 : 5}.webp`} alt="" />
-          <div className="video_button">
+          {/* <div className="video_button">
             <a
               className="popup-youtube"
               href="https://www.youtube.com/watch?v=7e90gBu4pas"
@@ -100,7 +100,7 @@ const Home = ({ dark }) => {
               <img className="anim_circle" src="img/hero/welcome.png" alt="" />
               <img className="svg" src="img/svg/play.svg" alt="" />
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
