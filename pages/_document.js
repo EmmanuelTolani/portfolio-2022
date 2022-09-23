@@ -1,10 +1,8 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import { hotjar } from "react-hotjar";
 export default function Document() {
   return (
     <Html>
       <Head>
-        hotjar.initialize(2439022, 6);
         <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap"
           rel="stylesheet"
