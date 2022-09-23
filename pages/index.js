@@ -29,9 +29,9 @@ const Index = () => {
       <ExpertAreas />
       {/* <Services /> */}
       <Projects />
-      {/* <Feedback /> */}
-      {/* <Blog /> */}
-      {/* <Partners /> */}
+      <Feedback />
+      <Blog />
+      <Partners />
       <Contact />
       <CopyRight />
       <Mouse />

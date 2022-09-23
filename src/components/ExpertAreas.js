@@ -35,7 +35,7 @@ const educations = [
   {
     institution: "University of Saskatchewan",
     certificate: "Computer Science",
-    time: "2021",
+    time: "2016 - 2021",
   },
   {
     institution: "Coding Phase",
@@ -62,7 +62,7 @@ const ExpertAreas = () => {
                 <div className="orido_tm_main_title">
                   <h3>
                     <span>
-                      My Background
+                      My Expert
                       <br />
                       areas
                     </span>
@@ -70,18 +70,22 @@ const ExpertAreas = () => {
                 </div>
                 <div className="text">
                   <p>
-                    I do full-stack development. At LDC I worked on developing an application that enables quick and easy setup for our solar-powered security products.
+                    I do full-stack development. At LDC I worked on developing
+                    an application that enables quick and easy setup for our
+                    solar-powered security products.
                   </p>
                   <p>
-                  My background is in Computer Science and I have done hundreds of hours of self-directed learning with platforms like Udemy, Coding Phase, and Freecode camp.
+                    My background is in Computer Science and I have done
+                    hundreds of hours of self-directed learning with platforms
+                    like Udemy, Coding Phase, and Freecode camp.
                   </p>
                 </div>
-                <div className="orido_tm_boxed_button">
+                {/* <div className="orido_tm_boxed_button">
                   <a href="img/Emmanuel-Tolani.pdf" target={"_blank"} download>
                     My Resume{" "}
                     <img className="svg" src="img/svg/paper.svg" alt="" />
                   </a>
-                </div>
+                </div> */}
               </div>
               <div className="right">
                 <div className="filter">
@@ -96,7 +100,7 @@ const ExpertAreas = () => {
                         <img
                           className="svg"
                           src="img/svg/top-arrow.svg"
-                          alt=""
+                          alt="Skills"
                         />
                       </a>
                     </li>
@@ -110,7 +114,7 @@ const ExpertAreas = () => {
                         <img
                           className="svg"
                           src="img/svg/top-arrow.svg"
-                          alt=""
+                          alt="Experience"
                         />
                       </a>
                     </li>
@@ -124,7 +128,7 @@ const ExpertAreas = () => {
                         <img
                           className="svg"
                           src="img/svg/top-arrow.svg"
-                          alt=""
+                          alt="Education"
                         />
                       </a>
                     </li>
@@ -147,9 +151,7 @@ const ExpertAreas = () => {
                                   />
                                 </span>
                               </span>
-                              <p className="name">
-                                {skill.name}
-                              </p>
+                              <p className="name">{skill.name}</p>
                             </div>
                           </li>
                         ))}
@@ -210,7 +212,7 @@ const ExpertAreas = () => {
       </div>
       {/* /INFORMATIONS */}
       {/* COUNTER */}
-      <div className="orido_tm_section">
+      {/* <div className="orido_tm_section">
         <div className="orido_tm_counter">
           <div className="container">
             <div className="counter_list">
@@ -229,7 +231,7 @@ const ExpertAreas = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </Fragment>
   );
 };

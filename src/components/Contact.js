@@ -7,7 +7,8 @@ const Contact = () => {
             <div className="text">
               <h3>{`Let's`} work together</h3>
               <p>
-                Please feel free to message me on my social platforms or send me an email with any questions you may have. 
+                Please feel free to message me on my social platforms or send me
+                an email with any questions you may have.
               </p>
             </div>
           </div>
@@ -25,7 +26,10 @@ const Contact = () => {
                 <li>
                   <span className="name">Email:</span>
                   <p>
-                    <a className="line_effect" href="mailto:emmanueltolani17@gmail.com">
+                    <a
+                      className="line_effect"
+                      href="mailto:emmanueltolani17@gmail.com"
+                    >
                       emmanueltolani17[at]gmail.com
                     </a>
                   </p>
@@ -37,25 +41,38 @@ const Contact = () => {
                 <span>Follow me:</span>
                 <ul>
                   <li>
-                    <a href="https://www.linkedin.com/in/emmanuel-tolani/"  target={'_blank'}>
-                      <img className="svg" src="img/svg/linkedin-in-brands.svg" alt="" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://dribbble.com/tolanie/collections"  target={'_blank'}>
+                    <a
+                      href="https://www.linkedin.com/in/emmanuel-tolani/"
+                      target={"_blank"}
+                    >
                       <img
                         className="svg"
-                        src="img/svg/social/dribbble.svg"
-                        alt=""
+                        src="/img/svg/linkedin-in-brands.svg"
+                        alt="linkedin"
                       />
                     </a>
                   </li>
                   <li>
-                    <a href="https://github.com/EmmanuelTolani/" target={'_blank'}>
+                    <a
+                      href="https://dribbble.com/tolanie/collections"
+                      target={"_blank"}
+                    >
                       <img
                         className="svg"
-                        src="img/svg/github-alt-brands.svg"
-                        alt=""
+                        src="/img/svg/social/dribbble.svg"
+                        alt="dribbble"
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/EmmanuelTolani/"
+                      target={"_blank"}
+                    >
+                      <img
+                        className="svg"
+                        src="/img/svg/github-alt-brands.svg"
+                        alt="github"
                       />
                     </a>
                   </li>

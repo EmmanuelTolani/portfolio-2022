@@ -10,22 +10,30 @@ const Header = ({ dark }) => {
         <div className="menu">
           <ul className="anchor_nav">
             <li className="current">
-              <a href="#home">Home</a>
+              <a href="#home" alt="home">
+                Home
+              </a>
             </li>
             <li>
-              <a href="#about">About</a>
+              <a href="#about" alt="about">
+                About
+              </a>
             </li>
             {/* <li>
               <a href="#service">Service</a>
             </li> */}
             <li>
-              <a href="#portfolio">Portfolio</a>
+              <a href="#portfolio" alt="portfolio">
+                Portfolio
+              </a>
             </li>
             {/* <li>
               <a href="#blog">Blog</a>
             </li> */}
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact" alt="contact">
+                Contact
+              </a>
             </li>
           </ul>
           <span className="ccc" />

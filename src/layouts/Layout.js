@@ -22,10 +22,38 @@ const Layout = ({ children }) => {
   return (
     <Fragment>
       <Head>
-        <title>Emmanuel Tolani | Portfolio</title>
-        <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png" />
+        <title>Front End Developer | Emmanuel Tolani</title>
+        <meta charset="UTF-8" />
+        <meta
+          name="description"
+          content="Need a developer? Emmanuel Tolani is a software developer with a focus on front end development.Learn more here. "
+        />
+        <meta
+          name="keywords"
+          content="HTML, CSS, JavaScript, Front End Developer, Next.js, Full stack"
+        />
+        <meta name="author" content="Emmanuel Tolani" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0"
+        ></meta>
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="favicon_io/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="favicon_io/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="favicon_io/favicon-16x16.png"
+        />
         <link rel="manifest" href="favicon_io/site.webmanifest" />
       </Head>
       {/* <PreLoader /> */}

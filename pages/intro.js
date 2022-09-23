@@ -4,9 +4,7 @@ import Mouse from "../src/layouts/Mouse";
 const Intro = () => {
   return (
     <Layout>
-      <Head>
-        <title>Emmanuel Tolani | Portfolio</title>
-      </Head>
+      <Head></Head>
       <div className="orido_tm_intro">
         <div className="orido_tm_intro_fixed_price">
           <span className="anim" />
