@@ -4,17 +4,19 @@ import { projectSliderProps } from "../sliderProps";
 import { dataImage } from "../utilits";
 import DetailsPopup from "./popup/DetailsPopup";
 import DetailsPopup1 from "./popup/DetailsPopup1";
+import DetailsPopup2 from "./popup/DetailsPopup2";
 const Projects = () => {
   useEffect(() => {
     dataImage();
   }, []);
   const [detailsPopup, setDetailsPopup] = useState(false);
   const [detailsPopup1, setDetailsPopup1] = useState(false);
-
+  const [detailsPopup2, setDetailsPopup2] = useState(false);
   return (
     <Fragment>
       <DetailsPopup close={() => setDetailsPopup(false)} open={detailsPopup} />
       <DetailsPopup1 close={() => setDetailsPopup1(false)} open={detailsPopup1} />
+      <DetailsPopup2 close={() => setDetailsPopup2(false)} open={detailsPopup2} />
       <div className="orido_tm_section" id="portfolio">
         <div className="orido_tm_portfolio">
           <div className="container">
@@ -53,13 +55,13 @@ const Projects = () => {
                     />
                   </div>
                 </SwiperSlide>
-                {/* <SwiperSlide>
+                <SwiperSlide>
                   <div className="list_inner">
                     <div className="image">
                       <img src="img/portfolio/LeSwan.png" alt="" />
                       <div
                         className="main"
-                        data-img-url="img/portfolio/LeSwan.png"
+                        data-img-url="img/portfolio/leswan.png"
                       />
                     </div>
                     <div className="details">
@@ -70,10 +72,10 @@ const Projects = () => {
                     </div>
                     <a
                       className="orido_tm_full_link details_link c-pointer"
-                      onClick={() => setDetailsPopup(true)}
+                      onClick={() => setDetailsPopup2(true)}
                     />
                   </div>
-                </SwiperSlide> */}
+                </SwiperSlide>
                 <SwiperSlide>
                   <div className="list_inner">
                     <div className="image">
