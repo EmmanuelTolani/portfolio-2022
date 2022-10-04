@@ -25,7 +25,7 @@ const Header = ({ dark }) => {
                 Portfolio
               </a>
             </li>
-            {/* <li>
+           {/* <li>
               <a href="#blog">Blog</a>
             </li> */}
             <li>
