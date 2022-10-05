@@ -28,9 +28,9 @@ const Contact = () => {
                   <p>
                     <a
                       className="line_effect"
-                      href="mailto:emmanueltolani17@gmail.com"
+                      href="mailto:tolani100@gmail.com"
                     >
-                      emmanueltolani17[at]gmail.com
+                     tolani100[at]gmail.com
                     </a>
                   </p>
                 </li>

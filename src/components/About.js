@@ -21,7 +21,7 @@ const About = () => {
             </div>
             <div className="text">
               <p>
-                Hello, my name is Emmanuel Tolani.
+                Hello, my name is Ron Tolani.
                 I have been working as a professional Software Developer for 2 years. During this time, I have worked on several side projects with various different technologies. 
                 For fun I love traveling, playing basketball, and working on amazing projects.
               </p>

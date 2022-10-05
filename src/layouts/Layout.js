@@ -22,17 +22,17 @@ const Layout = ({ children }) => {
   return (
     <Fragment>
       <Head>
-        <title>Front End Developer | Emmanuel Tolani</title>
+        <title>Software Engineer | Ron Tolani</title>
         <meta charset="UTF-8" />
         <meta
           name="description"
-          content="Need a developer? Emmanuel Tolani is a software developer with a focus on front end development.Learn more here. "
+          content="Need a developer? Ron Tolani is a software developer with a focus on front end development.Learn more here. "
         />
         <meta
           name="keywords"
           content="HTML, CSS, JavaScript, Front End Developer, Next.js, Full stack"
         />
-        <meta name="author" content="Emmanuel Tolani" />
+        <meta name="author" content="Ron Tolani" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0"
