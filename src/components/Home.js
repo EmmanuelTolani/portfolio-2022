@@ -6,7 +6,7 @@ const Home = ({ dark }) => {
           <div className="details">
             <div className="short">
               <h3>
-                Ron Tolani{" "}
+                Emmanuel Tolani{" "}
                 <img className="svg" src="img/svg/hi.svg" alt="waving hand" />
               </h3>
               <span className="job">Front End Developer</span>
@@ -91,7 +91,7 @@ const Home = ({ dark }) => {
       </div>
       <div className="avatar">
         <div className="img">
-          <img src={`img/hero/${dark ? 2 : 5}.webp`} alt="" />
+          <img src={`img/hero/${dark ? 2 : 'emman1'}.jpeg`} alt="" />
           {/* <div className="video_button">
             <a
               className="popup-youtube"

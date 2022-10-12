@@ -7,7 +7,7 @@ const CopyRight = () => {
             <div className="copy">
               <p>
                 © 2022 by{" "}
-                  Ron Tolani
+                Emmanuel Tolani
                 All Rights Reserved
               </p>
             </div>

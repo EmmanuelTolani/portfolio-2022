@@ -28,7 +28,7 @@ const Contact = () => {
                   <p>
                     <a
                       className="line_effect"
-                      href="mailto:tolani100@gmail.com"
+                      href="mailto:tolanie100@gmail.com"
                     >
                      tolani100[at]gmail.com
                     </a>
