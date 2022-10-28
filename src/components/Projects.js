@@ -5,6 +5,7 @@ import { dataImage } from "../utilits";
 import DetailsPopup from "./popup/DetailsPopup";
 import DetailsPopup1 from "./popup/DetailsPopup1";
 import DetailsPopup2 from "./popup/DetailsPopup2";
+import DetailsPopup3 from "./popup/DetailsPopup3";
 const Projects = () => {
   useEffect(() => {
     dataImage();
@@ -12,11 +13,13 @@ const Projects = () => {
   const [detailsPopup, setDetailsPopup] = useState(false);
   const [detailsPopup1, setDetailsPopup1] = useState(false);
   const [detailsPopup2, setDetailsPopup2] = useState(false);
+  const [detailsPopup3, setDetailsPopup3] = useState(false);
   return (
     <Fragment>
       <DetailsPopup close={() => setDetailsPopup(false)} open={detailsPopup} />
       <DetailsPopup1 close={() => setDetailsPopup1(false)} open={detailsPopup1} />
       <DetailsPopup2 close={() => setDetailsPopup2(false)} open={detailsPopup2} />
+      <DetailsPopup3 close={() => setDetailsPopup3(false)} open={detailsPopup3} />
       <div className="orido_tm_section" id="portfolio">
         <div className="orido_tm_portfolio">
           <div className="container">
@@ -31,6 +34,7 @@ const Projects = () => {
             </div>
             <div className="portfolio_list">
               <Swiper
+              slidesPerView={1}
                 {...projectSliderProps}
                 className="owl-carousel gallery_zoom"
               >
@@ -94,6 +98,27 @@ const Projects = () => {
                     <a
                       className="orido_tm_full_link details_link c-pointer"
                       onClick={() => setDetailsPopup1(true)}
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="list_inner">
+                    <div className="image">
+                      <img src="img/portfolio/anki.png" alt="" />
+                      <div
+                        className="main"
+                        data-img-url="img/portfolio/anki.png"
+                      />
+                    </div>
+                    <div className="details">
+                      <span className="category">App</span>
+                      <h3 className="title">
+                        <span>Anki</span>
+                      </h3>
+                    </div>
+                    <a
+                      className="orido_tm_full_link details_link c-pointer"
+                      onClick={() => setDetailsPopup3(true)}
                     />
                   </div>
                 </SwiperSlide>

@@ -38,7 +38,7 @@ const Index = () => {
       {/* <Services /> */}
       <Projects />
       {/* <Feedback /> */}
-      {/* <Blog /> */}
+      <Blog />
       <Contact />
       <CopyRight />
       <Mouse />
