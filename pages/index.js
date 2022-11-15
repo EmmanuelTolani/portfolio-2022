@@ -15,7 +15,7 @@ import Mouse from "../src/layouts/Mouse";
 import ProgressBar from "../src/layouts/ProgressBar";
 import { hotjar } from "react-hotjar";
 import ReactGA from "react-ga";
-const TRACKING_ID = "UA-196269208-1";
+const TRACKING_ID = "G-BWV1GM1VDT";
 
 const Projects = dynamic(() => import("../src/components/Projects"), {
   ssr: false,
