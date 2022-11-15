@@ -19,8 +19,12 @@ const Home = ({ dark }) => {
             </div>
             <div className="buttons">
               <div className="orido_tm_boxed_button">
-                <a className="anchor" href="#contact">
-                  Say Hello{" "}
+                <a
+                  className="anchor"
+                  href="https://calendly.com/emmanueltolani17/30min"
+                  target={"_blank"}
+                >
+                  Schedule a Call{" "}
                   <img
                     className="svg"
                     src="img/svg/send.svg"
@@ -91,7 +95,7 @@ const Home = ({ dark }) => {
       </div>
       <div className="avatar">
         <div className="img">
-          <img src={`img/hero/${dark ? 2 : 'emman1'}.jpeg`} alt="" />
+          <img src={`img/hero/emman1.jpeg`} alt="" />
           {/* <div className="video_button">
             <a
               className="popup-youtube"
