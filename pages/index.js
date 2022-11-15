@@ -14,6 +14,9 @@ import MobileMenu from "../src/layouts/MobileMenu";
 import Mouse from "../src/layouts/Mouse";
 import ProgressBar from "../src/layouts/ProgressBar";
 import { hotjar } from "react-hotjar";
+import ReactGA from "react-ga";
+const TRACKING_ID = "UA-196269208-1";
+
 const Projects = dynamic(() => import("../src/components/Projects"), {
   ssr: false,
 });
@@ -26,6 +29,7 @@ const Partners = dynamic(() => import("../src/components/Partners"), {
 const Index = () => {
   useEffect(() => {
     hotjar.initialize(2439022, 6);
+    ReactGA.initialize(TRACKING_ID);
   }, []);
   return (
     <Layout>
