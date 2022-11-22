@@ -16,7 +16,6 @@ import ProgressBar from "../src/layouts/ProgressBar";
 import { hotjar } from "react-hotjar";
 import ReactGA from "react-ga";
 import LazyLoad from "react-lazyload";
-const TRACKING_ID = "G-BWV1GM1VDT";
 
 const Projects = dynamic(() => import("../src/components/Projects"), {
   ssr: false,
@@ -30,7 +29,6 @@ const Partners = dynamic(() => import("../src/components/Partners"), {
 const Index = () => {
   useEffect(() => {
     hotjar.initialize(2439022, 6);
-    ReactGA.initialize(TRACKING_ID);
   }, []);
   return (
     <Layout>
