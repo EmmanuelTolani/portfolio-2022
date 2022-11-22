@@ -6,16 +6,30 @@ const Home = ({ dark }) => {
         <div className="content">
           <div className="details">
             <div className="short">
+              <span
+                style={{
+                  fontSize: "21px",
+                  color: "#4C359A",
+                  fontWeight: "600",
+                }}
+              >
+                Hello, I'm
+              </span>
               <h3>
                 Emmanuel Tolani{" "}
                 <img className="svg" src="img/svg/hi.svg" alt="waving hand" />
               </h3>
-              <span className="job">Front End Developer</span>
+              <span
+                className="job"
+                style={{ color: "#4C359A", fontWeight: "600" }}
+              >
+                Front End Developer
+              </span>
             </div>
             <div className="text">
               <p>
-                {`I'm`} a developer based in Canada 🍁. I enjoy creating
-                solutions with software.
+                {`I'm`} a developer based in Canada 🍁. I specialize in the
+                creation and deployment of email marketing campaigns.
               </p>
             </div>
             <div className="buttons">

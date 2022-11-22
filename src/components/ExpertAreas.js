@@ -14,8 +14,12 @@ const skills = [
   { name: "Javascript", icon: "img/svg/js-brands.svg" },
   { name: "CSS", icon: "img/svg/css3-brands.svg" },
   { name: "Git", icon: "img/svg/git-alt-brands.svg" },
-  { name: "MySQL", icon: "img/svg/database-solid.svg" },
-  { name: "PHP", icon: "img/svg/php-brands.svg" },
+  // { name: "MySQL", icon: "img/svg/database-solid.svg" },
+  // { name: "PHP", icon: "img/svg/php-brands.svg" },
+  { name: "Figma", icon: "img/svg/figma.svg" },
+  { name: "MailChimp", icon: "img/svg/mailchimp.svg" },
+  { name: "Responsive Design", icon: "img/svg/laptop-solid.svg" },
+  { name: "Photoshop", icon: "img/svg/photoshop.svg" },
 ];
 
 const experiences = [
