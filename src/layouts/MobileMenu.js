@@ -6,14 +6,16 @@ const MobileMenu = () => {
     color: "#4c359a",
     fontSize: "1.7rem",
     fontWeight: "900",
-    letterSpacing: "3px"
-  }
+    letterSpacing: "3px",
+  };
   return (
     <div className="orido_tm_mobile_menu">
       <div className="mobile_menu_inner">
         <div className="mobile_in">
           <div className="logo">
-          <a href="#" style={mobileLogo}>Tolani</a>
+            <a href="/" style={mobileLogo}>
+              Tolani
+            </a>
           </div>
           <div className="trigger" onClick={() => setToggle(!toggle)}>
             <div

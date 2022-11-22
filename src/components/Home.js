@@ -1,3 +1,4 @@
+import Image from "next/image";
 const Home = ({ dark }) => {
   return (
     <div className="orido_tm_hero orido_tm_section" id="home">
@@ -13,8 +14,8 @@ const Home = ({ dark }) => {
             </div>
             <div className="text">
               <p>
-                {`I'm`} a developer based in Canada. I enjoy creating solutions
-                with software.
+                {`I'm`} a developer based in Canada 🍁. I enjoy creating
+                solutions with software.
               </p>
             </div>
             <div className="buttons">
@@ -89,13 +90,20 @@ const Home = ({ dark }) => {
           <img
             className="svg"
             src={`img/svg/${dark ? "down_button_light" : "down_button"}.svg`}
-            alt=""
+            alt="scroll down"
           />
         </a>
       </div>
       <div className="avatar">
         <div className="img">
-          <img src={`img/hero/emman1.jpeg`} alt="" />
+          <Image
+            src={`/img/hero/emman1.jpeg`}
+            alt="emmanuel tolani"
+            objectFit="contain"
+            height={530}
+            width={450}
+            quality={100}
+          />
           {/* <div className="video_button">
             <a
               className="popup-youtube"

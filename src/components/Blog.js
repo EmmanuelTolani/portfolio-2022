@@ -14,7 +14,7 @@ const blogData = [
       "2. Take regular breaks. Especially if you’re stuck and have been banging your head against the wall for a while. Go for a walk, get some fresh air or have a snack. Sometimes it’s even necessary to call it a day. Fresh eyes will see new solutions and you will waste less hours debugging.",
       "3. Use the INSPECTOR (Chrome DevTools) It’s my favourite tool to use when styling and to get an overview of how the elements are put together. It lets you quickly preview what the colors, margins, paddings, etc. is going to look like, so you don’t need to skip back and forth between your code program and the browser.",
       "4. Use the “replace” in VSCode. It’s a simple way for finding and replacing all the strings that you want to change. Picking “replace all” changes all matches with one click, instead of risking missing one when doing it manually.",
-      "5. Don’t be afraid to use other tools that help you code efficiently and helps identify errors. For example, the extension Auto Rename Tag changes the closing tag simultaneously as you’re changing the opening tag. Code Spell Checker is another extension that prevents you from doing typos."
+      "5. Don’t be afraid to use other tools that help you code efficiently and helps identify errors. For example, the extension Auto Rename Tag changes the closing tag simultaneously as you’re changing the opening tag. Code Spell Checker is another extension that prevents you from doing typos.",
     ],
   },
   {
@@ -46,7 +46,7 @@ const blogData = [
       "Session authentication can help you handle cross-site request spoofing. It can be achieved by issuing tokens for each active user session to verify that it is the actual user sending requests to the site. It is known as token-based mitigation, and you can use stateful or stateless token patterns.",
       "Conclusion",
       "It is necessary to perform penetration tests periodically to ensure the security of your website. These tests assess the security from several angles: external, internal, blind, and targeted. In addition, these tests allow us to check situations that may happen for real, unlike a classic security audit, which focuses more on technical assessment.",
-      "To automate good security practices, we can also integrate security into DevSecOps. In such a setup, those responsible for development and operations are also responsible for security. It involves, for example, the use of security diagnostic tools in the continuous integration process."
+      "To automate good security practices, we can also integrate security into DevSecOps. In such a setup, those responsible for development and operations are also responsible for security. It involves, for example, the use of security diagnostic tools in the continuous integration process.",
     ],
   },
 ];

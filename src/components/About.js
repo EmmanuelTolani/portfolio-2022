@@ -1,3 +1,4 @@
+import Image from "next/image";
 const About = () => {
   return (
     <div className="orido_tm_section" id="about">
@@ -21,9 +22,12 @@ const About = () => {
             </div>
             <div className="text">
               <p>
-                Hello, my name is Emmanuel Tolani.
-                I have been working as a professional Software Developer for 2 years. During this time, I have worked on several side projects with various different technologies. 
-                For fun I love traveling, playing basketball, and working on amazing projects.
+                Hello, my name is Emmanuel Tolani. I have been working as a
+                Software Developer for 2 years in the high-tech security
+                industry. During this time, I have also worked on launching
+                several websites and helping clients maintain their exisisting
+                websites. For fun I love traveling, playing basketball, and
+                working on amazing projects.
               </p>
             </div>
             <div className="short">
@@ -33,7 +37,12 @@ const About = () => {
                   <img className="svg" src="img/svg/paper.svg" alt="" />
                 </a>
               </div> */}
-              <img src="img/signature.webp" alt="" />
+              <Image
+                src="/img/signature.webp"
+                alt="Signature"
+                width={155}
+                height={32}
+              />
             </div>
           </div>
         </div>

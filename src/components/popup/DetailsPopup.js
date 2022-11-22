@@ -1,10 +1,17 @@
 import Popup from "./Popup";
+import Image from "next/image";
 const DetailsPopup = ({ open, close }) => {
   return (
     <Popup open={open} close={close}>
       <div className="popup_details">
         <div className="top_image">
-          <img src="img/portfolio/pronedrone.webp" alt="" />
+          <Image
+            src="/img/portfolio/pronedrone.webp"
+            alt="prone drone project"
+            height={400}
+            width={600}
+            objectFit="contain"
+          />
           <div
             className="main"
             data-img-url="img/portfolio/pronedrone.webp"
@@ -23,10 +30,13 @@ const DetailsPopup = ({ open, close }) => {
         <div className="main_details">
           <div className="textbox">
             <p>
-              My role was to create a responsive modern landing page with smooth animations.
+              My role was to create a responsive modern landing page with smooth
+              animations.
             </p>
             <p>
-            The main difficulty of the landing page was making sure it was responsive. This process required me to test the site on many different screen sizes and many different web browsers.
+              The main difficulty of the landing page was making sure it was
+              responsive. This process required me to test the site on many
+              different screen sizes and many different web browsers.
             </p>
           </div>
           <div className="detailbox">
@@ -34,18 +44,27 @@ const DetailsPopup = ({ open, close }) => {
               <li>
                 <span className="first">View Live:</span>
                 <span>
-                <a href="https://pronedrones.netlify.app/" target={'_blank'}>ProneDrones</a>
+                  <a href="https://pronedrones.netlify.app/" target={"_blank"}>
+                    ProneDrones
+                  </a>
                 </span>
               </li>
               <li>
                 <span className="first">Github:</span>
                 <span>
-                  <a href="https://github.com/EmmanuelTolani/drone-landingpage" target={'_blank'}>View Code</a>
+                  <a
+                    href="https://github.com/EmmanuelTolani/drone-landingpage"
+                    target={"_blank"}
+                  >
+                    View Code
+                  </a>
                 </span>
               </li>
               <li>
                 <span className="first">Notable Features</span>
-                <span>Responsive<br></br></span>
+                <span>
+                  Responsive<br></br>
+                </span>
                 <span>JS Animations</span>
               </li>
             </ul>
@@ -56,24 +75,60 @@ const DetailsPopup = ({ open, close }) => {
             <li>
               <div className="list_inner">
                 <div className="my_image">
-                  <img src="img/portfolio/pronedrone-3.webp" alt="" />
-                  <div className="main" data-img-url="img/portfolio/pronedrone-3.webp" style={{ backgroundImage: 'url("img/portfolio/pronedrone-3.webp")' }} />
+                  <Image
+                    src="/img/portfolio/pronedrone-3.webp"
+                    alt="proOne drones project details"
+                    width={300}
+                    height={300}
+                    objectFit="contain"
+                  />
+                  <div
+                    className="main"
+                    data-img-url="img/portfolio/pronedrone-3.webp"
+                    style={{
+                      backgroundImage: 'url("img/portfolio/pronedrone-3.webp")',
+                    }}
+                  />
                 </div>
               </div>
             </li>
             <li>
               <div className="list_inner">
                 <div className="my_image">
-                  <img src="img/portfolio/pronedrone-2.webp" alt="" />
-                  <div className="main" data-img-url="img/portfolio/pronedrone-2.webp" style={{ backgroundImage: 'url("img/portfolio/pronedrone-2.webp")' }}/>
+                  <Image
+                    src="/img/portfolio/pronedrone-2.webp"
+                    alt="proOne drones project details"
+                    width={300}
+                    height={300}
+                    objectFit="contain"
+                  />
+                  <div
+                    className="main"
+                    data-img-url="img/portfolio/pronedrone-2.webp"
+                    style={{
+                      backgroundImage: 'url("img/portfolio/pronedrone-2.webp")',
+                    }}
+                  />
                 </div>
               </div>
             </li>
             <li>
               <div className="list_inner">
                 <div className="my_image">
-                  <img src="img/portfolio/pronedrone-1.webp" alt="" />
-                  <div className="main" data-img-url="img/portfolio/pronedrone-1.webp" style={{ backgroundImage: 'url("img/portfolio/pronedrone-1.webp")' }}/>
+                  <Image
+                    src="/img/portfolio/pronedrone-1.webp"
+                    alt="proOne drones project details"
+                    width={300}
+                    height={300}
+                    objectFit="contain"
+                  />
+                  <div
+                    className="main"
+                    data-img-url="img/portfolio/pronedrone-1.webp"
+                    style={{
+                      backgroundImage: 'url("img/portfolio/pronedrone-1.webp")',
+                    }}
+                  />
                 </div>
               </div>
             </li>

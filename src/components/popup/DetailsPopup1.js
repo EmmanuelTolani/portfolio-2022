@@ -1,10 +1,17 @@
 import Popup from "./Popup";
+import Image from "next/image";
 const DetailsPopup = ({ open, close }) => {
   return (
     <Popup open={open} close={close}>
       <div className="popup_details">
         <div className="top_image">
-          <img src="img/portfolio/hbo.webp" alt="" />
+          <Image
+            src="/img/portfolio/hbo.webp"
+            alt="hbo project details"
+            height={400}
+            width={600}
+            objectFit="contain"
+          />
           <div
             className="main"
             data-img-url="img/portfolio/hbo.webp"
@@ -23,10 +30,14 @@ const DetailsPopup = ({ open, close }) => {
         <div className="main_details">
           <div className="textbox">
             <p>
-            My role was to create a movie streaming platform that had key features from HBO. I used the movie database API to dynamically display information about thousands of movies.
+              My role was to create a movie streaming platform that had key
+              features from HBO. I used the movie database API to dynamically
+              display information about thousands of movies.
             </p>
             <p>
-            The main difficulty of the streaming platform was creating the different features like the create user, searching for a movie, and adding to a watch list.
+              The main difficulty of the streaming platform was creating the
+              different features like the create user, searching for a movie,
+              and adding to a watch list.
             </p>
           </div>
           <div className="detailbox">
@@ -34,21 +45,36 @@ const DetailsPopup = ({ open, close }) => {
               <li>
                 <span className="first">View Live</span>
                 <span>
-                <a href="https://hbo-maxd.netlify.app" target={'_blank'}>HBO</a>
+                  <a href="https://hbo-maxd.netlify.app" target={"_blank"}>
+                    HBO
+                  </a>
                 </span>
               </li>
               <li>
                 <span className="first">Creator</span>
                 <span>
-                  <a href="https://github.com/EmmanuelTolani/hbo-react-clone" target={'_blank'}>View Code</a>
+                  <a
+                    href="https://github.com/EmmanuelTolani/hbo-react-clone"
+                    target={"_blank"}
+                  >
+                    View Code
+                  </a>
                 </span>
               </li>
               <li>
                 <span className="first">Notable Features</span>
-                <span>Create Account<br></br></span>
-                <span>Search Movies<br></br></span>
-                <span>My list<br></br></span>
-                <span>Movie Cast<br></br></span>
+                <span>
+                  Create Account<br></br>
+                </span>
+                <span>
+                  Search Movies<br></br>
+                </span>
+                <span>
+                  My list<br></br>
+                </span>
+                <span>
+                  Movie Cast<br></br>
+                </span>
                 <span>Logout</span>
               </li>
             </ul>
@@ -59,24 +85,60 @@ const DetailsPopup = ({ open, close }) => {
             <li>
               <div className="list_inner">
                 <div className="my_image">
-                  <img src="img/portfolio/hbo-3.webp" alt="" />
-                  <div className="main" data-img-url="img/portfolio/hbo-3.webp" style={{ backgroundImage: 'url("img/portfolio/hbo-3.webp")' }}  />
+                  <Image
+                    src="/img/portfolio/hbo-3.webp"
+                    alt="hbo project details"
+                    height={300}
+                    width={300}
+                    objectFit="contain"
+                  />
+                  <div
+                    className="main"
+                    data-img-url="img/portfolio/hbo-3.webp"
+                    style={{
+                      backgroundImage: 'url("img/portfolio/hbo-3.webp")',
+                    }}
+                  />
                 </div>
               </div>
             </li>
             <li>
               <div className="list_inner">
                 <div className="my_image">
-                  <img src="img/portfolio/hbo-1.webp" alt="" />
-                  <div className="main" data-img-url="img/portfolio/hbo-1.webp" style={{ backgroundImage: 'url("img/portfolio/hbo-1.webp")' }} />
+                  <Image
+                    src="/img/portfolio/hbo-1.webp"
+                    alt="hbo project details"
+                    height={300}
+                    width={300}
+                    objectFit="contain"
+                  />
+                  <div
+                    className="main"
+                    data-img-url="img/portfolio/hbo-1.webp"
+                    style={{
+                      backgroundImage: 'url("img/portfolio/hbo-1.webp")',
+                    }}
+                  />
                 </div>
               </div>
             </li>
             <li>
               <div className="list_inner">
                 <div className="my_image">
-                  <img src="img/portfolio/hbo-2.webp" alt="" />
-                  <div className="main" data-img-url="img/portfolio/hbo-2.webp" style={{ backgroundImage: 'url("img/portfolio/hbo-2.webp")' }}/>
+                  <Image
+                    src="/img/portfolio/hbo-2.webp"
+                    alt="hbo project details"
+                    height={300}
+                    width={300}
+                    objectFit="contain"
+                  />
+                  <div
+                    className="main"
+                    data-img-url="img/portfolio/hbo-2.webp"
+                    style={{
+                      backgroundImage: 'url("img/portfolio/hbo-2.webp")',
+                    }}
+                  />
                 </div>
               </div>
             </li>

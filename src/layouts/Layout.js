@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
     <Fragment>
       <Head>
         <title>Software Engineer | Emmanuel Tolani</title>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="Need a developer? Emmanuel Tolani is a software developer with a focus on front end development.Learn more here. "

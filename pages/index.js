@@ -15,6 +15,7 @@ import Mouse from "../src/layouts/Mouse";
 import ProgressBar from "../src/layouts/ProgressBar";
 import { hotjar } from "react-hotjar";
 import ReactGA from "react-ga";
+import LazyLoad from "react-lazyload";
 const TRACKING_ID = "G-BWV1GM1VDT";
 
 const Projects = dynamic(() => import("../src/components/Projects"), {
@@ -36,13 +37,20 @@ const Index = () => {
       <MobileMenu />
       <Header />
       <Home />
-      <Partners />
+      {/* <Partners /> */}
       <About />
-      <ExpertAreas />
+      <LazyLoad offset={50}>
+        <ExpertAreas />
+      </LazyLoad>
+
       {/* <Services /> */}
-      <Projects />
+      <LazyLoad offset={100}>
+        <Projects />
+      </LazyLoad>
       {/* <Feedback /> */}
-      <Blog />
+      <LazyLoad offset={50}>
+        <Blog />
+      </LazyLoad>
       <Contact />
       <CopyRight />
       <Mouse />

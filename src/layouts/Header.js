@@ -3,7 +3,7 @@ const Header = ({ dark }) => {
     <div className="orido_tm_header">
       <div className="header_in">
         <div className="logo">
-          <a href="#">Tolani</a>
+          <a href="/">Tolani</a>
         </div>
         <div className="menu">
           <ul className="anchor_nav">
@@ -25,7 +25,7 @@ const Header = ({ dark }) => {
                 Portfolio
               </a>
             </li>
-           <li>
+            <li>
               <a href="#blog">Blog</a>
             </li>
             <li>

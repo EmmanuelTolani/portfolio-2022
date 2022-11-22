@@ -15,7 +15,7 @@ export const projectSliderProps = {
   },
   autoplay: {
     delay: 2500,
-    disableOnInteraction: false,
+    disableOnInteraction: true,
   },
   breakpoints: {
     0: { slidesPerView: 1 },

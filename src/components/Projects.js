@@ -6,6 +6,7 @@ import DetailsPopup from "./popup/DetailsPopup";
 import DetailsPopup1 from "./popup/DetailsPopup1";
 import DetailsPopup2 from "./popup/DetailsPopup2";
 import DetailsPopup3 from "./popup/DetailsPopup3";
+import Image from "next/Image";
 const Projects = () => {
   useEffect(() => {
     dataImage();
@@ -17,9 +18,18 @@ const Projects = () => {
   return (
     <Fragment>
       <DetailsPopup close={() => setDetailsPopup(false)} open={detailsPopup} />
-      <DetailsPopup1 close={() => setDetailsPopup1(false)} open={detailsPopup1} />
-      <DetailsPopup2 close={() => setDetailsPopup2(false)} open={detailsPopup2} />
-      <DetailsPopup3 close={() => setDetailsPopup3(false)} open={detailsPopup3} />
+      <DetailsPopup1
+        close={() => setDetailsPopup1(false)}
+        open={detailsPopup1}
+      />
+      <DetailsPopup2
+        close={() => setDetailsPopup2(false)}
+        open={detailsPopup2}
+      />
+      <DetailsPopup3
+        close={() => setDetailsPopup3(false)}
+        open={detailsPopup3}
+      />
       <div className="orido_tm_section" id="portfolio">
         <div className="orido_tm_portfolio">
           <div className="container">
@@ -34,17 +44,23 @@ const Projects = () => {
             </div>
             <div className="portfolio_list">
               <Swiper
-              slidesPerView={1}
+                slidesPerView={1}
                 {...projectSliderProps}
                 className="owl-carousel gallery_zoom"
               >
                 <SwiperSlide>
                   <div className="list_inner">
                     <div className="image">
-                      <img src="img/portfolio/pronedrone.webp" alt="" />
+                      <Image
+                        src="/img/portfolio/pronedrone.webp"
+                        alt="prone drones project"
+                        height={400}
+                        width={600}
+                        objectFit="contain"
+                      />
                       <div
                         className="main"
-                        data-img-url="img/portfolio/pronedrone.webp"
+                        data-img-url="/img/portfolio/pronedrone.webp"
                       />
                     </div>
                     <div className="details">
@@ -62,10 +78,16 @@ const Projects = () => {
                 <SwiperSlide>
                   <div className="list_inner">
                     <div className="image">
-                      <img src="img/portfolio/LeSwan.png" alt="" />
+                      <Image
+                        src="/img/portfolio/leswan.png"
+                        alt="LeSwan Restuarant project"
+                        height={400}
+                        width={600}
+                        objectFit="contain"
+                      />
                       <div
                         className="main"
-                        data-img-url="img/portfolio/leswan.png"
+                        data-img-url="/img/portfolio/leswan.png"
                       />
                     </div>
                     <div className="details">
@@ -83,10 +105,16 @@ const Projects = () => {
                 <SwiperSlide>
                   <div className="list_inner">
                     <div className="image">
-                      <img src="img/portfolio/Hbo.webp" alt="" />
+                      <Image
+                        src="/img/portfolio/Hbo.webp"
+                        alt="Hbo streaming platform project"
+                        height={400}
+                        width={600}
+                        objectFit="contain"
+                      />
                       <div
                         className="main"
-                        data-img-url="img/portfolio/Hbo.webp"
+                        data-img-url="/img/portfolio/Hbo.webp"
                       />
                     </div>
                     <div className="details">
@@ -104,10 +132,16 @@ const Projects = () => {
                 <SwiperSlide>
                   <div className="list_inner">
                     <div className="image">
-                      <img src="img/portfolio/anki.png" alt="" />
+                      <Image
+                        src="/img/portfolio/anki.png"
+                        alt="Anki project"
+                        height={400}
+                        width={600}
+                        objectFit="contain"
+                      />
                       <div
                         className="main"
-                        data-img-url="img/portfolio/anki.png"
+                        data-img-url="/img/portfolio/anki.png"
                       />
                     </div>
                     <div className="details">
@@ -124,10 +158,14 @@ const Projects = () => {
                 </SwiperSlide>
               </Swiper>
               <a className="prev_button" href="#">
-                <img className="svg" src="img/svg/prev.svg" alt="" />
+                <img
+                  className="svg"
+                  src="img/svg/prev.svg"
+                  alt="previous button"
+                />
               </a>
               <a className="next_button" href="#">
-                <img className="svg" src="img/svg/next.svg" alt="" />
+                <img className="svg" src="img/svg/next.svg" alt="next button" />
               </a>
             </div>
           </div>

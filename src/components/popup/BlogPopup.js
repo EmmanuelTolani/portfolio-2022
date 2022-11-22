@@ -1,4 +1,5 @@
 import Popup from "./Popup";
+import Image from "next/image";
 
 const BlogPopup = ({ data, open, close }) => {
   return (
