@@ -1,14 +1,16 @@
 {
   "index.js -> ../src/components/Partners": {
-    "id": "index.js -> ../src/components/Partners",
+    "id": 4739,
     "files": [
-      "static/chunks/src_components_Partners_js.js"
+      "static/chunks/712.01a2763d6a3ca499.js",
+      "static/chunks/739.6852d92f15b40a91.js"
     ]
   },
   "index.js -> ../src/components/Projects": {
-    "id": "index.js -> ../src/components/Projects",
+    "id": 8813,
     "files": [
-      "static/chunks/src_components_Projects_js.js"
+      "static/chunks/712.01a2763d6a3ca499.js",
+      "static/chunks/813.c54e2e99d5117ebd.js"
     ]
   }
 }
