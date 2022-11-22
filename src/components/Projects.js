@@ -6,7 +6,7 @@ import DetailsPopup from "./popup/DetailsPopup";
 import DetailsPopup1 from "./popup/DetailsPopup1";
 import DetailsPopup2 from "./popup/DetailsPopup2";
 import DetailsPopup3 from "./popup/DetailsPopup3";
-import Image from "next/Image";
+import Image from "next/image";
 const Projects = () => {
   useEffect(() => {
     dataImage();
