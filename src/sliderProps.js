@@ -6,7 +6,7 @@ import SwiperCore, {
 } from "swiper";
 SwiperCore.use([Pagination, Navigation, EffectFade, Autoplay]);
 export const projectSliderProps = {
-  slidesPerView: 1,
+  slidesPerView: 2,
   spaceBetween: 50,
   loop: true,
   navigation: {
@@ -14,7 +14,7 @@ export const projectSliderProps = {
     prevEl: ".prev_button",
   },
   autoplay: {
-    delay: 2500,
+    delay: 1500,
     disableOnInteraction: true,
   },
   breakpoints: {

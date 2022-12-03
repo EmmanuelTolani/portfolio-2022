@@ -38,7 +38,7 @@ const Projects = () => {
                 <span>
                   Look at my
                   <br />
-                  recent projects
+                  Portfolio
                 </span>
               </h3>
             </div>
@@ -64,7 +64,7 @@ const Projects = () => {
                       />
                     </div>
                     <div className="details">
-                      <span className="category">Website</span>
+                      <span className="category">Landing Page</span>
                       <h3 className="title">
                         <span>Pro0ne Drones</span>
                       </h3>
@@ -72,6 +72,60 @@ const Projects = () => {
                     <a
                       className="orido_tm_full_link details_link c-pointer"
                       onClick={() => setDetailsPopup(true)}
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="list_inner">
+                    <div className="image">
+                      <Image
+                        src="/img/portfolio/shopify-email.png"
+                        alt="Shopify Transactional Email"
+                        height={400}
+                        width={600}
+                        objectFit="contain"
+                      />
+                      <div
+                        className="main"
+                        data-img-url="/img/portfolio/shopify-email.png"
+                      />
+                    </div>
+                    <div className="details">
+                      <span className="category">Newsletter Email</span>
+                      <h3 className="title">
+                        <span>Shopify Newsletter</span>
+                      </h3>
+                    </div>
+                    <a
+                      className="orido_tm_full_link details_link c-pointer"
+                      href="/html/shopify-email.html"
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="list_inner">
+                    <div className="image">
+                      <Image
+                        src="/img/portfolio/papa-johns.png"
+                        alt="Papa Johns Promo"
+                        height={400}
+                        width={600}
+                        objectFit="contain"
+                      />
+                      <div
+                        className="main"
+                        data-img-url="/img/portfolio/papa-johns.png"
+                      />
+                    </div>
+                    <div className="details">
+                      <span className="category">Promotional Email</span>
+                      <h3 className="title">
+                        <span>Papa Johns Email</span>
+                      </h3>
+                    </div>
+                    <a
+                      className="orido_tm_full_link details_link c-pointer"
+                      href="/html/papa-johns.html"
                     />
                   </div>
                 </SwiperSlide>
@@ -145,7 +199,7 @@ const Projects = () => {
                       />
                     </div>
                     <div className="details">
-                      <span className="category">App</span>
+                      <span className="category">Website</span>
                       <h3 className="title">
                         <span>Anki</span>
                       </h3>
