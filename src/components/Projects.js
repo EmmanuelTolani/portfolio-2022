@@ -147,7 +147,7 @@ const Projects = () => {
                     <div className="details">
                       <span className="category">Transactional Email</span>
                       <h3 className="title">
-                        <span>Expedia Transactional Email</span>
+                        <span>Expedia Email</span>
                       </h3>
                     </div>
                     <a
