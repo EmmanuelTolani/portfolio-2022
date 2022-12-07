@@ -22,7 +22,7 @@ const About = () => {
             </div>
             <div className="text">
               <p>
-                Hello, my name is Emmanuel Tolani. I am a HTML Email Developer
+                Hello, my name is Emmanuel Tolani. I am an HTML Email Developer
                 with a comprehensive understanding of email design. From
                 translating design mockups into HTML email documents, I create
                 original and effective designs that take all project
