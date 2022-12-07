@@ -133,6 +133,33 @@ const Projects = () => {
                   <div className="list_inner">
                     <div className="image">
                       <Image
+                        src="/img/portfolio/expedia-email.png"
+                        alt="Expedia Transactional Email"
+                        height={400}
+                        width={600}
+                        objectFit="contain"
+                      />
+                      <div
+                        className="main"
+                        data-img-url="/img/portfolio/expedia-email.png"
+                      />
+                    </div>
+                    <div className="details">
+                      <span className="category">Transactional Email</span>
+                      <h3 className="title">
+                        <span>Expedia Transactional Email</span>
+                      </h3>
+                    </div>
+                    <a
+                      className="orido_tm_full_link details_link c-pointer"
+                      href="/html/expedia-transac.html"
+                    />
+                  </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <div className="list_inner">
+                    <div className="image">
+                      <Image
                         src="/img/portfolio/leswan.png"
                         alt="LeSwan Restuarant project"
                         height={400}
