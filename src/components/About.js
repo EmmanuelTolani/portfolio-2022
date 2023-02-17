@@ -22,16 +22,16 @@ const About = () => {
             </div>
             <div className="text">
               <p>
-                Hello, my name is Emmanuel Tolani. I am an HTML Email Developer
-                with a comprehensive understanding of email design. From
-                translating design mockups into HTML email documents, I create
-                original and effective designs that take all project
-                deliverables into account. Personal development is very
-                important to me and I'm constantly improving my skills and
-                knowledge to get the best results from every campaign. My
-                meticulous attention to detail and ability to work within tight
-                deadlines ensures I deliver projects on time, on budget, and on
-                specification.
+                My name is Emmanuel, and I am a full-stack developer with two
+                years of experience in the industry. I have a passion for
+                developing efficient, user-friendly, and visually appealing web
+                applications. Personal development is very important to me and
+                I'm constantly improving my skills and knowledge to get the best
+                results. I am also a professional scrum master, with meticulous
+                attention to detail and an ability to work within tight
+                deadlines ensuring I deliver projects on time, on budget, and
+                with specifications. I also have a passion for fitness and
+                bodybuilding.
               </p>
             </div>
             <div className="short">

@@ -23,13 +23,13 @@ const Home = ({ dark }) => {
                 className="job"
                 style={{ color: "#4C359A", fontWeight: "600" }}
               >
-                Front End Developer
+                Full Stack Developer
               </span>
             </div>
             <div className="text">
               <p>
                 {`I'm`} a developer based in Canada 🍁. I specialize in the
-                creation and deployment of email marketing campaigns.
+                front end and full stack development.
               </p>
             </div>
             <div className="buttons">
